@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>E-COMMERCE</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+	</head>
+	<head>
+        <title>Sorting | PRICES</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="store.js" async></script>
+    
+	
+	<style>
+body{ background-color: black;}
+body {
+  font-family: Arial;
+  font-size: 20px;
+  padding: 9px;
+}
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 20px;
+}
+.container {
+  background-color: hsla(14, 100%, 53%, 0.6);
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+.btn {
+  background-color: hsla(14, 100%, 53%, 0.6);
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.btn:hover {
+  background-color: hsla(14, 100%, 53%, 0.6);
+}
+a {
+  color: #2196F3;
+}
+hr {
+  border: 1px solid lightgrey;
+}
+span.price {
+  float: right;
+  color: grey;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+</style>
+</head>
+    <body>
+	
+        <header class="main-header">
+            <nav class="nav main-nav">
+                <ul>
+                     <li><a href="index.html">HOME</a></li>
+                   <li><a href="register01.html">REGISTER HERE</a></li>
+                    <li><a href="dilpreet_browsing.html">BROWSING</a></li>
+					<li><a href="login.html">LOGIN&LOGOUT</a></li>
+					<li><a href="SORTING_navtej.html">SORTING</a></li>
+					<li><a href="shoppingcart.html">SHOPPING CART</a></li>
+					<li><a href="checkout.html">CHECKOUT</a></li>
+                </ul>
+            </nav>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    
+                    <li><a href="store.html">Sorting by prices</a></li>
+                    <
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">Sorting by prices</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">PRICE ARRANGEMENT SYSTEMATICALLY</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">RANGE $3000-2500</span>
+                    <img class="shop-item-image" src="3.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$2500</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">RANGE $2500-$2000</span>
+                    <img class="shop-item-image" src="2.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"><$2000</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">RANGE $2000-$1800</span>
+                    <img class="shop-item-image" src="18.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1499-$1999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">RANGE $1800-$1500</span>
+                    <img class="shop-item-image" src="15.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">>$1400</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+				<div class="shop-item">
+                    <span class="shop-item-title">RANGE $5000-$7000</span>
+                    <img class="shop-item-image" src="5.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">>$6990</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+				</div>
+				<div class="shop-item">
+                    <span class="shop-item-title">RANGE $8500-$10000</span>
+                    <img class="shop-item-image" src="10.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$10000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+				</div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Zero down payment</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Mobiles apple iphone 10 X</span>
+                    <img class="shop-item-image" src="mob.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$0 down</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Wants to buy?</button>
+                    </div>
+                </div>
+				 <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Mobiles samsung S 10e</span>
+                    <img class="shop-item-image" src="samsung.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$0 down </span>
+                        <button class="btn btn-primary shop-item-button" type="button">Wants to buy?</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">LEds TCL</span>
+                    <img class="shop-item-image" src="leds.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$0 </span>
+                        <button class="btn btn-primary shop-item-button" type="button">Wants to buy?</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">SHOPPING CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">GADGETS</span>
+                <span class="cart-price cart-header cart-column">PRICES</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">BUY CHEAP........... BUY BEST!</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="YouTube.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.spotify.com" target="_blank">
+                            <img src="Spotify.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="Facebook.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+		
+    </body>
+</html>
+    

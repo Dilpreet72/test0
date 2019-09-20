@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/stylelog.css">
+  
+
+</head>
+<body>
+ <header class="main-header">
+            <nav class="nav main-nav">
+                <ul>
+                     <li><a href="index.html">HOME</a></li>
+                    <li><a href="register01.html">REGISTER HERE</a></li>
+                    <li><a href="dilpreet_browsing.html">BROWSING</a></li>
+					<li><a href="login.html">LOGIN&LOGOUT</a></li>
+					<li><a href="SORTING_navtej.html">SORTING</a></li>
+					<li><a href="shoppingcart.html">SHOPPING CART</a></li>
+					<li><a href="checkout.html">CHECKOUT</a></li>
+                </ul>
+            </nav>
+<div class="container" id="MyForm" >
+<img id="admin_img" src="images/dummy.jpg" height="120px" width="120px" onclick="document.getElementById('user').value = 'Harsh',document.getElementById('pwd').value = 'ILOVEYOUTOOOOOOOOOOO'">
+
+
+  <form action="logout.html" method="post" id="MyForm1">
+ <p> <input type="text" class="form-control1" id="user" placeholder="Username" name="username" required></p>
+  <p><input type="password" class="form-control1" id="pwd" placeholder="Password" name="password" required></p>
+ 
+  
+		<button onclick="myFunction()">SIGN IN</button>
+
+<script>
+function myFunction() {
+  confirm("SIGN IN SUCCESSFUL!");
+}
+</script>
+</div>
+
+
+</body>
+</html>

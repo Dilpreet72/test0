@@ -1,0 +1,304 @@
+#wrapper {
+  margin: 0px;
+  width: 100%;
+  min-width: 900px;
+  overflow-x: scroll;
+ 
+}
+
+
+#bottom-bar {
+	position: absolute;
+	top: 168px;
+	background-color: #03a075;
+	width: 98.7%;
+	-webkit-transition: all 0.3s;
+}
+
+
+#bottom-nav ul {
+	 border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+#bottom-nav a{
+	color: white;
+	font-family: Century Gothic;
+	line-height: 40px;
+	padding: 5px;
+}
+
+#top-nav a:hover {
+	font-weight: bold;
+}
+
+#bottom-nav li{
+	display: inline;
+}
+
+#bottom-nav li:hover{
+	text-decoration: underline;
+}
+
+#view-more:hover {
+	font-weight: bold;
+}
+
+
+header h1#logo {
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Century Gothic";
+  font-size: 50px;
+  color: white;
+  padding: 25px 75px 25px 25px;
+  border: 5px solid white;
+	margin: 0px;
+	line-height:3em;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+header.smaller {
+	height: 90px;
+}
+
+header.smaller h1#logo {
+	width: 150px;
+	height: 75px;
+	line-height: 55px;
+	font-size: 50px;
+	margin: 0;
+}
+
+header.smaller nav#top-nav a {
+	line-height: 75px;
+	position: relative;
+	bottom: auto;
+	-webkit-transition: all 0.3s;
+}
+
+header {
+	background-color: #03a075;
+	width: 100%;
+	height: 10em;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+  border-bottom:solid 0.5em #f4f4f4;
+	background-color: #39e63;
+	transition: height 0.3s;
+}
+
+header.expand {
+	height: 200px;
+}
+
+
+#top-nav {
+	display: inline-block;
+	float: right;
+	position: relative;
+  top: 25px;
+  margin-left: 20px;
+}
+
+#top-nav .smaller {
+  margin-top: 10px;
+}
+
+#top-nav a { 
+	color: white;
+	font-family: Century Gothic;
+	line-height: 150px;
+	margin-right: 20px;
+	font-size: 150%;
+}
+
+#top-nav img {
+  width: 35px;
+  height: 30px;
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 5px;
+  margin-bottom: -10px;
+}
+
+
+a {
+	text-decoration: none;
+	color: #fcfcfc;
+	font-weight: 300;
+}
+
+.main { 
+	background-color: #d8bbab;
+	padding-top: 150px;
+  min-height:500px;
+	height: 100%;
+}
+
+header h1#logo {
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Century Gothic";
+  font-size: 3em;
+  color: white;
+  padding: 25px 8% 25px 2.5%;
+  border: 5px solid white;
+	margin: 0px;
+	line-height: 3em;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+  background-color: #03a075;
+
+}
+
+#productList{
+	font-family : "Century Gothic";
+	width: 30%;
+	height: 35px;
+	border-radius: 5px;
+	border: 2px solid #39e63;
+	padding: 5px 3% 5px 20px;
+	-webkit-transition: all 0.3s;
+	position: relative;
+  top: -20px;
+  margin-left: 5px;
+}
+  
+
+
+
+
+
+
+
+
+
+
+/*****MAIN STYLING ******/
+#category-name {
+  position: relative;
+  top: 40%;
+  font-family: "Century Gothic";
+  color:  white;
+  text-align: center;
+  background-color: #018461;
+   width: 50%;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 20px 30px 20px;
+  border: 3px solid white
+    
+}
+
+#shopping-cart {
+  background-color: #f9f7ea;
+  padding: 20px;
+  margin: 100px 50px 50px 50px;
+  position: relative;
+  top: 5%;
+  min-height: 300px;
+}
+
+#cart th {
+  background-color: #03a075;
+  padding: 5px;
+  text-align: center;
+  width: 20%;
+  color: white;
+}
+
+#cart td{
+  text-align: center;
+  padding: 4px;
+}
+
+
+#cart #remove-item {
+  width:2.5%;
+  background-color: #018e67;
+  color: white;
+  padding: auto;
+}
+
+#cart{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Century Gothic";
+}
+
+#cart tr:nth-child(even) {
+   background-color: #fffee2;
+}
+
+#cart tr:nth-child(odd) {
+  background-color: #f2f1ed;
+}
+
+#cart tr {
+  border-bottom: 2px solid black;
+}
+  
+.remove {
+  padding:5px;
+  border: 1px solid #03a075;
+  border-radius: 8px;
+  background-color: #03a075;
+  color: white;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+  pointer: cursor;
+ }
+
+.remove:hover {
+  background-color: #018e67;
+  border: 1px solid #018e67;
+}
+
+#cart img {
+  display: block;
+  width: 40%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+td:nth-child(1) {  
+ background-color: white;
+ border: 5px solid #E8E6E1;
+}
+
+td:nth-child(6) {
+  background-color: #018e67; 
+}
+
+#checkout {
+  padding: 5px;
+  font-family: "Calibri";
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid #03a075;
+  background-color: #03a075;
+  color: white;
+  position: relative;
+  left: 85%;
+  margin-top: 15px;
+  width: 15%;
+  cursor: pointer;
+}
+
+#checkout:hover {
+  border: 2px solid #018e67;
+  background-color: #018e67;
+}
+
